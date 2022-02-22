@@ -27,6 +27,7 @@ p{
   font-size: 1.7em;
 }
 
+/* Fixed background tiger logo */
 .bg-icon {
   position:fixed;
   left: 50%;
@@ -74,7 +75,7 @@ header>p {
   margin: 0;
 }
 
-/* Navigation */
+/* Fixed & Flex navigation bar */
 .nav-right {
     position:fixed;
     right: 1%;
@@ -129,6 +130,7 @@ main {
 main>section:first-child{
   margin-top: 0;
 }
+
 main>section {
   margin-top: 10%;
 }
@@ -137,6 +139,7 @@ main p {
   line-height: 1.6;
 }
 
+/* float right image */
 .lucky img {
   float: right;
 }
@@ -149,6 +152,7 @@ main p {
   margin-top: 0;
 }
 
+/* Row flex lists */
 .lucky>ul {
   display: flex;
   flex-flow: row wrap;
@@ -167,15 +171,18 @@ main p {
 /* ///////////////////////////////////////////////////////////////////////////////////////// */
 /* FOOTER */
 /* ///////////////////////////////////////////////////////////////////////////////////////// */
+
 footer{
   display: flex;
   flex-flow: row wrap;
   margin: 5% 0 0 10%;
 }
+
 footer>p {
   font-size: 1.3em;
   font-style: italic;
 }
+
 footer>p:last-child{
   margin-left: 5%;
 }
